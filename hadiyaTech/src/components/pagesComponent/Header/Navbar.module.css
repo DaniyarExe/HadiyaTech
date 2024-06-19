@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    padding: 24px 48px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    gap: 10px;
+    z-index: 10;
+    background: rgba(255, 255, 255, .65);
+    backdrop-filter: blur(20px);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .a {
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+nav .a:hover {
+    color: #ffd900;
+}
+
+.testDrive svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    fill: currentColor;
+}
+
+.headerLogo {
+    text-decoration: none;
+    color: rgba(255, 226, 39, 0.8);
+    padding-right: 280px;
+}
+
+nav button {
+    border: 1px solid #000;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 13px 32px;
+    background: none;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+nav button:hover {
+    border: 1px solid #ffd900;
+    color: #ffd900;
+}
+
+.testDrive {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+
+.testDrive:hover {
+    color: #ffd900;
+}

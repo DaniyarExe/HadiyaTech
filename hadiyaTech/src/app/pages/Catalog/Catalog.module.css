@@ -1,0 +1,35 @@
+.Text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.main a {
+    position: relative;
+}
+
+.main h1 {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.main img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+}

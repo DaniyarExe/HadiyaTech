@@ -1,0 +1,53 @@
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main h2 {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.main img {
+    width: 350px;
+    border-radius: 70px;
+}
+
+.main:hover h2 {
+    color: #ffd900;
+}
+
+.description {
+    text-align: center;
+    padding: 25px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.description h2 {
+    padding: 10px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.itemColor {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.description h2:hover {
+    color: #ffd900;
+}
